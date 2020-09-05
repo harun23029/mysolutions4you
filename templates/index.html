@@ -63,9 +63,7 @@
     <div class="postsdiv">
         {% for sol in solution %}
         <div id="posts1" class="cfcol1">
-          <a href="codeforces">
             <h6 class="heading1">{{sol.category}}</h6>
-            </a>
             <a href="{% url 'ojsolution' %}?id={{sol.title}}">
             <p class="text1"><b>{{sol.title}}</b></p>
     
