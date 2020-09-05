@@ -3,7 +3,6 @@ from . import views
 
 urlpatterns = [
     path('',views.index,name='index'),
-    path('home',views.home,name='home'),
     path('codeforces',views.codeforces,name='codeforces'),
     path('uri',views.uri,name='uri'),
     path('uva',views.uva,name='uva'),
