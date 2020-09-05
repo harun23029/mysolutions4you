@@ -7,14 +7,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Solutions For You Computer Science</title>
+    <title>{{title}}</title>
     <link rel="icon" type="image/icon" href="{% static 'images\logo.jpg' %}">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <link rel="stylesheet" href="{% static 'css/codeforces.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="EJwdh24TSrDc6Fp8NtewgA_iPaoRPmh9Gxl-kAjAM58" />
     <meta name="description"
-        content="This we is about solutions of programing problems of online judges and other CSE related subjects">
+        content="{{meta}}">
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/7.10.0/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -114,6 +114,10 @@
         {% endblock %}
 
         {% block ojpb %}
+
+        {% endblock %}
+
+        {% block ojsol %}
 
         {% endblock %}
        

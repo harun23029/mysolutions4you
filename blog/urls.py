@@ -11,5 +11,6 @@ urlpatterns = [
     path('loj',views.loj,name='loj'),
     path('qa',views.qa,name='qa'),
     path('mathematics',views.mathematics,name='mathematics'),
+    path('ojsolution',views.ojsolution,name='ojsolution'),
 
 ]

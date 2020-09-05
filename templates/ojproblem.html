@@ -3,14 +3,23 @@
 {% block ojpb%}
 <div>
     <h3 class="heading1">Category: {{name}}</h3>
-    <h5 class="heading1" id="total_posts">Total posts</h5>
+    <h5 class="heading1" id="total_posts">Total posts: {{solution.count}}</h5>
     <hr class="new2">
   </div>
   <div class="postsdiv">
+    {% for sol in solution %}
     <div id="posts1" class="cfcol1">
-
-
+      <a href="codeforces">
+        <h6 class="heading1">{{sol.category}}</h6>
+        </a>
+        <a href="{% url 'ojsolution' %}?id={{sol.title}}">
+        <p class="text1"><b>{{sol.title}}</b></p>
+        </p>
+        </a>
+        <p class="text1">{{sol.date}}</p>
+        <hr class="new3">
     </div>
+     {% endfor %}
     <div id="posts2" class="cfcol1"> </div>
 
   </div>
