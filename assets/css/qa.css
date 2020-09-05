@@ -1,0 +1,27 @@
+.qatext{
+    color: black;
+    font-size: 16px;;
+}
+.pre_text{
+    background-color: rgb(234, 231, 238);
+    font-size: 18px;
+    color: black;
+}
+.pre_text2{
+    background-color: rgb(234, 231, 238);
+    font-size: 15px;
+    color: black;
+    overflow-x: hidden;
+
+}
+.pre_text3{
+    background-color:  rgb(183, 188, 189);
+    font-size: 15px;
+    overflow-x: hidden;
+    color: black;
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;    
+    white-space: -o-pre-wrap;  
+    word-wrap: break-word;
+}

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block index %}
+<h2 class="heading1">My Solutions For You</h2>
+
+<hr>
+<img src="{% static 'images/home.jpg' %}" alt="Home page image" class="homeimg">
+<p class="paragraph1">This website is developed for basicaly Computer Science and Engineering Students. This
+    website will help you
+    in your academics. You can find here solutions of programing probelms with explainations of many online judges.
+    The online judges are <a href="http://codeforces.com/"><b>Codeforces</b></a> , <a
+        href="https://www.urionlinejudge.com.br/"><b>URI Online Judge</b></a>
+    , <a href="https://onlinejudge.org/"><b>UVA Online judge</b></a> , <a
+        href="https://www.hackerrank.com/"><b>Hackerrank</b></a> , <a href="http://lightoj.com/"><b>Light Oj</b></a>
+    and other online judges.
+</p>
+<p class="paragraph1">
+    Also you can find programing lanuage related specifications here. Here we have dissued on different programing
+    languages. Discussed
+    programing languages in this website are <a href="c.html"><b>C</b></a> , <a href="c++.html"><b>C++</b></a> ,<a
+        href="java.html"><b>JAVA</b></a> ,
+    <a href="python.html"><b>PYTHON</b></a> , <a href="kotlin.html"><b>KOTLIN</b></a> , <a
+        href="html.html"><b>HTML</b></a> , <a href="css.html"><b>CSS</b></a> ,
+    <a href="js.html"><b>JAVA SCRIPT</b></a>. From this website you can learn these programing languages.
+
+</p>
+<p class="paragraph1">
+    In tehis website we have also discussed on different subjects of Computer Science and Engineering. From those
+    pages you can learn the subjects topics.
+    Discussed subjects are <a href="datastructure.html"><b>Data Structure</b></a> , <a
+        href="algorithms.html"><b>Algorithms</b></a> , <a href="database.html"><b>Database Management</b></a>
+    <a href="computerarchitecture.html"><b>Computer Architecture</b></a> , <a href="computernetwork.html"><b>Computer
+            Network</b></a> , <a href="computergraphics.html"><b>Computer
+            Graphics</b></a>
+    , <a href="artificialintelligence.html"><b>Artificial Interligence</b></a> , <a
+        href="operatingsystem.html"><b>Operating Sysytem</b></a>.
+</p>
+<p class="paragraph1"> Computer Science related questions and answers can be found here in the website. Also you
+    can find mathematical probelms slutions.
+    And the is page for compiling your code online you can write code and compile here to practice online.
+</p>
+<br>
+<h2 class="heading1">Contact Us<br>
+    <hr>
+</h2>
+<div class="contactdiv">
+    <b>Fill up this form to contact with us.</b><br><br>
+    <div class="contact_form">
+        <label><b>Name</b> (required)</label>
+        <input id="name" class="signup_form" type="text" placeholder="Your Name" required>
+        <label><b>Email </b>(required)</label>
+        <input id="email" class="signup_form" type="text" placeholder="example@gmail.com" required>
+        <label><b>Phone No.</b></label>
+        <input id="phone" class="signup_form" type="number" placeholder="01234567891">
+        <label><b>Message (required)</b></label>
+        <textarea id="message" class="contact_message" type="text" placeholder="Your Comment" required></textarea>
+        <button type="submit" onclick="submitContact()">Submit</button>
+    </div>
+</div>
+<h2 class="heading1"> All Posts</h2>
+<div id="allposts" style="padding: 30px;">
+    <div id="posts1" class="cfcol1">
+
+
+    </div>
+    <div id="posts2" class="cfcol1"> </div>
+</div>
+<div class="fb-comments" data-href="https://mysolutions4you.firebaseapp.com/" data-width="100%" data-numposts="10">
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,35 @@
+hr.new2 {
+    border-top: 2px dashed red;
+}
+.postsdiv{
+    margin: 30px;
+}
+.postdiv2{
+    margin: 20px;
+    margin-top: 50px;
+}
+.cfcol1{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.text1{
+    font-style: oblique;
+    color: black;
+    padding-left: 10px;
+}
+hr.new3 {
+    border-top: 1px dotted black;
+    margin-right: 10px;
+}
+.codesnipet{
+    background-color: rgba(7, 0, 0, 0.938);
+    color: white;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px){
+    .cfcol1{
+        float: left;
+        width: 100%;
+    }
+}
