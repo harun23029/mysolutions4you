@@ -4,9 +4,11 @@ from .models import Solution
 
 # Create your views here.
 def index(request):
-    return render(request,'index.html',{'title':'My Solutions For You Computer Science','meta':'This we is about solutions of programing problems of online judges and other CSE related subjects'})
+    solution = Solution.objects.all()
+    return render(request,'index.html',{'solution':solution,'title':'My Solutions For You Computer Science','meta':'This we is about solutions of programing problems of online judges and other CSE related subjects'})
 def home(request):
-    return render(request,'index.html',{'title':'My Solutions For You Computer Science','meta':'This we is about solutions of programing problems of online judges and other CSE related subjects'})
+    solution = Solution.objects.all()
+    return render(request,'index.html',{'solution':solution,'title':'My Solutions For You Computer Science','meta':'This we is about solutions of programing problems of online judges and other CSE related subjects'})
 def codeforces(request):
     solution = Solution.objects.all().filter(category='CODEFORCES')
     return render(request,'ojproblem.html',{'name':'Codeforces','solution':solution,'title':'Codeforces Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge Codeforces. Codeforces solutions'})

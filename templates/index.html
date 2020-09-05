@@ -60,11 +60,23 @@
 </div>
 <h2 class="heading1"> All Posts</h2>
 <div id="allposts" style="padding: 30px;">
-    <div id="posts1" class="cfcol1">
-
-
-    </div>
-    <div id="posts2" class="cfcol1"> </div>
+    <div class="postsdiv">
+        {% for sol in solution %}
+        <div id="posts1" class="cfcol1">
+          <a href="codeforces">
+            <h6 class="heading1">{{sol.category}}</h6>
+            </a>
+            <a href="{% url 'ojsolution' %}?id={{sol.title}}">
+            <p class="text1"><b>{{sol.title}}</b></p>
+    
+            </a>
+            <p class="text1">{{sol.date}}</p>
+            <hr class="new3">
+        </div>
+         {% endfor %}
+        <div id="posts2" class="cfcol1"> </div>
+    
+      </div>
 </div>
 <div class="fb-comments" data-href="https://mysolutions4you.herokuapp.com/" data-width="100%" data-numposts="10">
 
