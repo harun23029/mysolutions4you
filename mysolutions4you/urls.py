@@ -24,6 +24,7 @@ urlpatterns = [
     path('',include('blog.urls')),
     path('robots.txt',TemplateView.as_view(template_name="robots.txt", content_type="text/plain")),
     path('sitemap.xml',TemplateView.as_view(template_name="sitemap.xml", content_type="text/plain")),
+    path('.htaccess',TemplateView.as_view(template_name=".htaccess", content_type="htaccess")),
 
 ]
 
