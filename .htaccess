@@ -1,4 +1,3 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^mysolutions4you.herokuapp.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.mysolutions4you.herokuapp.com [NC]
-RewriteRule ^(.*)$ https://www.mysolutions4you.herokuapp.com/$1 [L,R=301,NC]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^mysolutions4you.herokuapp.com$
+RewriteRule (.*) http://www.mysolutions4you.herokuapp.com/$1 [R=301,L]
