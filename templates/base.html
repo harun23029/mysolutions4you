@@ -5,6 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146280327-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-146280327-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{title}}</title>
@@ -14,21 +25,21 @@
     <link rel="canonical" href="https://mysolutions4you.herokuapp.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="fP-ZUFafbOhcuRuOXyHbPhrxE2eNZzH8j2wXnSDOoHI" />
-        <meta name="description"
-        content="{{meta}} solutions in c, solutions in c++ , solutions in python java">
+    <meta name="description" content="{{meta}} solutions in c, solutions in c++ , solutions in python java">
 
 
-        <meta property="og:title" content="{{title}}" />
-        <meta property="og:type" content="CSE Solutions" />
-        <meta property="og:description" content="{{meta}}" />
-        <meta property="og:url" content="https://mysolutions4you.herokuapp.com/" />
-        <meta property="og:image" content="http://mysolutions4you.herokuapp.com/static/images/home.jpg" />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:type" content="CSE Solutions" />
+    <meta property="og:description" content="{{meta}}" />
+    <meta property="og:url" content="https://mysolutions4you.herokuapp.com/" />
+    <meta property="og:image" content="http://mysolutions4you.herokuapp.com/static/images/home.jpg" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <script data-ad-client="ca-pub-6614834939916976" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-6614834939916976" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 
 
@@ -53,8 +64,8 @@
             <nav class="navbar navbar-inverse" style="background-color: rgb(28, 4, 44); margin-bottom: 0px;">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="http://mysolutions4you.herokuapp.com/"><img src="{% static 'images/mylogo.png' %}"
-                                alt="My Solutions4You" width="200px"></a>
+                        <a class="navbar-brand" href="http://mysolutions4you.herokuapp.com/"><img
+                                src="{% static 'images/mylogo.png' %}" alt="My Solutions4You" width="200px"></a>
                     </div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="http://mysolutions4you.herokuapp.com/">Home</a></li>
@@ -108,71 +119,72 @@
             </nav>
 
 
-        {% block index %}
+            {% block index %}
 
-        {% endblock %}
+            {% endblock %}
 
-        {% block ojpb %}
+            {% block ojpb %}
 
-        {% endblock %}
+            {% endblock %}
 
-        {% block ojsol %}
+            {% block ojsol %}
 
-        {% endblock %}
-       
-        
-        <div class="footer">
-            <h3 align="center" style="color: aliceblue;">My Solutions4You</h3>
-            <p style="color: antiquewhite;">Questions, references, and examples are constantly reviewed to avoid errors,
-                but
-                we cannot warrant full correctness of all content. While using this site, you
-                agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 2019-2022 by
-                Refsnes
-                Data. All Rights Reserved.</p>
+            {% endblock %}
 
-            <h4 align="center" style="color: aqua;">mysolutions4you.herokuapp.com</h4><br>
-            <h4 style="color: beige;">Visit pages:</h4>
+
+            <div class="footer">
+                <h3 align="center" style="color: aliceblue;">My Solutions4You</h3>
+                <p style="color: antiquewhite;">Questions, references, and examples are constantly reviewed to avoid
+                    errors,
+                    but
+                    we cannot warrant full correctness of all content. While using this site, you
+                    agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 2019-2022 by
+                    Refsnes
+                    Data. All Rights Reserved.</p>
+
+                <h4 align="center" style="color: aqua;">mysolutions4you.herokuapp.com</h4><br>
+                <h4 style="color: beige;">Visit pages:</h4>
+            </div>
+            <div class="fdiv">
+                <li><a href="http://mysolutions4you.herokuapp.com/" style="color: beige;">Home page</a></li>
+                <li><a href="codeforces" style="color: beige;">Codesforces Solutions</a></li>
+                <li><a href="uri" style="color: beige;">URI Solutions</a></li>
+                <li><a href="uva" style="color: beige;">UVA Solutions</a></li>
+                <li><a href="hackerrank" style="color: beige;">Hacker Rank Solutions</a></li>
+                <li><a href="loj" style="color: beige;">Light OJ Solutions</a></li>
+                <li><a href="#qa" style="color: beige;">Q&A</a></li>
+                <li><a href="#mathematics" style="color: beige;">Mathematics</a></li>
+
+            </div>
+            <div class="fdiv">
+                <li><a href="#c" style="color: beige;">C </a></li>
+                <li><a href="#cpp" style="color: beige;">C++</a></li>
+                <li><a href="#java" style="color: beige;">Java</a></li>
+                <li><a href="#python" style="color: beige;">Python</a></li>
+                <li><a href="#kotlin" style="color: beige;">Kotlin</a></li>
+                <li><a href="#html" style="color: beige;">HTML</a></li>
+                <li><a href="#css" style="color: beige;">CSS</a></li>
+                <li><a href="#js" style="color: beige;">Java Script</a></li>
+            </div>
+            <div class="fdiv">
+                <li><a href="#datastructure" style="color: beige;">Data Structure</a></li>
+                <li><a href="#algorithms" style="color: beige;">Algorithms</a></li>
+                <li><a href="#database" style="color: beige;">Database</a></li>
+                <li><a href="#computerarchitecture" style="color: beige;">Computer Architecture</a></li>
+                <li><a href="#computernetwork" style="color: beige;">Computer Network</a></li>
+                <li><a href="#computergraphics" style="color: beige;">Computer Graphics</a></li>
+                <li><a href="#artificialintelligence" style="color: beige;">Artificial Interligence</a></li>
+                <li><a href="#operatingsystem" style="color: beige;">Operating System</a></li>
+
+            </div>
         </div>
-        <div class="fdiv">
-            <li><a href="http://mysolutions4you.herokuapp.com/" style="color: beige;">Home page</a></li>
-            <li><a href="codeforces" style="color: beige;">Codesforces Solutions</a></li>
-            <li><a href="uri" style="color: beige;">URI Solutions</a></li>
-            <li><a href="uva" style="color: beige;">UVA Solutions</a></li>
-            <li><a href="hackerrank" style="color: beige;">Hacker Rank Solutions</a></li>
-            <li><a href="loj" style="color: beige;">Light OJ Solutions</a></li>
-            <li><a href="#qa" style="color: beige;">Q&A</a></li>
-            <li><a href="#mathematics" style="color: beige;">Mathematics</a></li>
-
-        </div>
-        <div class="fdiv">
-            <li><a href="#c" style="color: beige;">C </a></li>
-            <li><a href="#cpp" style="color: beige;">C++</a></li>
-            <li><a href="#java" style="color: beige;">Java</a></li>
-            <li><a href="#python" style="color: beige;">Python</a></li>
-            <li><a href="#kotlin" style="color: beige;">Kotlin</a></li>
-            <li><a href="#html" style="color: beige;">HTML</a></li>
-            <li><a href="#css" style="color: beige;">CSS</a></li>
-            <li><a href="#js" style="color: beige;">Java Script</a></li>
-        </div>
-        <div class="fdiv">
-            <li><a href="#datastructure" style="color: beige;">Data Structure</a></li>
-            <li><a href="#algorithms" style="color: beige;">Algorithms</a></li>
-            <li><a href="#database" style="color: beige;">Database</a></li>
-            <li><a href="#computerarchitecture" style="color: beige;">Computer Architecture</a></li>
-            <li><a href="#computernetwork" style="color: beige;">Computer Network</a></li>
-            <li><a href="#computergraphics" style="color: beige;">Computer Graphics</a></li>
-            <li><a href="#artificialintelligence" style="color: beige;">Artificial Interligence</a></li>
-            <li><a href="#operatingsystem" style="color: beige;">Operating System</a></li>
-
-        </div>
-    </div>
     </div>
     </div>
     <div class="col3">
 
     </div>
     </div>
-   
+
     <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
 
 </body>
