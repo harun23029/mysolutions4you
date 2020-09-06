@@ -21,46 +21,47 @@ def hackerrank(request):
 def loj(request):
     solution = Solution.objects.all().filter(category='LIGHT Oj')
     return render(request,'ojproblem.html',{'name':'Light Oj','solution':solution,'title':'LightOj Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge Light Oj. Light Oj solutions'})
-def qa(request):
-    return render(request,'ojproblem.html',{'name':'Question + Answer'})
-def mathematics(request):
-    return render(request,'ojproblem.html',{'name':'Mathematics'})
-def c(request):
-    return render(request,'ojproblem.html',{'name':'C'})
-def cpp(request):
-    return render(request,'ojproblem.html',{'name':'C++'})
-def java(request):
-    return render(request,'ojproblem.html',{'name':'JAVA'})
-def python(request):
-    return render(request,'ojproblem.html',{'name':'PYTHON'})
-def kotlin(request):
-    return render(request,'ojproblem.html',{'name':'KOTLIN'})
-def html(request):
-    return render(request,'ojproblem.html',{'name':'HTML'})
-def css(request):
-    return render(request,'ojproblem.html',{'name':'CSS'})
-def js(request):
-    return render(request,'ojproblem.html',{'name':'JAVA SCRIPT'})
-def datastructure(request):
-    return render(request,'ojproblem.html',{'name':'Data Structure'})
-def algorithms(request):
-    return render(request,'ojproblem.html',{'name':'Algorithoms'})
-def database(request):
-    return render(request,'ojproblem.html',{'name':'Database'})
-def computerarchitecture(request):
-    return render(request,'ojproblem.html',{'name':'Computer Architecture'})
-def computernetwork(request):
-    return render(request,'ojproblem.html',{'name':'Computer Network'})
-def computergraphics(request):
-    return render(request,'ojproblem.html',{'name':'Computer Graphics'})
-def artificialintelligence(request):
-    return render(request,'ojproblem.html',{'name':'Artificial intelligence'})
-def operatingsystem(request):
-    return render(request,'ojproblem.html',{'name':'Operating System'})
-def compiler(request):
-    return render(request,'ojproblem.html',{'name':'Compiler'})
 def ojsolution(request):
     id=request.GET['id']
     solution = Solution.objects.all().filter(title=id)
     return render(request,'ojsolution.html',{'sol':solution,'title':solution[0].title,'meta':solution[0].title+solution[0].explaination+solution[0].code})
 
+
+# def qa(request):
+#     return render(request,'ojproblem.html',{'name':'Question + Answer'})
+# def mathematics(request):
+#     return render(request,'ojproblem.html',{'name':'Mathematics'})
+# def c(request):
+#     return render(request,'ojproblem.html',{'name':'C'})
+# def cpp(request):
+#     return render(request,'ojproblem.html',{'name':'C++'})
+# def java(request):
+#     return render(request,'ojproblem.html',{'name':'JAVA'})
+# def python(request):
+#     return render(request,'ojproblem.html',{'name':'PYTHON'})
+# def kotlin(request):
+#     return render(request,'ojproblem.html',{'name':'KOTLIN'})
+# def html(request):
+#     return render(request,'ojproblem.html',{'name':'HTML'})
+# def css(request):
+#     return render(request,'ojproblem.html',{'name':'CSS'})
+# def js(request):
+#     return render(request,'ojproblem.html',{'name':'JAVA SCRIPT'})
+# def datastructure(request):
+#     return render(request,'ojproblem.html',{'name':'Data Structure'})
+# def algorithms(request):
+#     return render(request,'ojproblem.html',{'name':'Algorithoms'})
+# def database(request):
+#     return render(request,'ojproblem.html',{'name':'Database'})
+# def computerarchitecture(request):
+#     return render(request,'ojproblem.html',{'name':'Computer Architecture'})
+# def computernetwork(request):
+#     return render(request,'ojproblem.html',{'name':'Computer Network'})
+# def computergraphics(request):
+#     return render(request,'ojproblem.html',{'name':'Computer Graphics'})
+# def artificialintelligence(request):
+#     return render(request,'ojproblem.html',{'name':'Artificial intelligence'})
+# def operatingsystem(request):
+#     return render(request,'ojproblem.html',{'name':'Operating System'})
+# def compiler(request):
+#     return render(request,'ojproblem.html',{'name':'Compiler'})
