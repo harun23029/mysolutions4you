@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/codeforces</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/uri</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/uva</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/hackerrank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/loj</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/c</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/cpp</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/java</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/python</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/kotlin</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/html</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/css</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/js</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/datastructure</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/algorithms</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/database</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/computerarchitecture</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/computernetwork</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/computergraphics</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/artificialintelligence</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/operatingsystem</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/qa</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/mathematics</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/compiler</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Josephus%20%E2%80%93%20Large%20codeforces%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Josephus%20%E2%80%93%20Small%20codeforces%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20214A%20%E2%80%93%20System%20of%20Equations</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20510C%20%E2%80%93%20Fox%20And%20Names</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20330A%20%E2%80%93%20Cakeminator</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20706A%20%E2%80%93%20Beru-taxi</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20583A%20%E2%80%93%20Asphalting%20Roads</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20378A%20%E2%80%93%20Playing%20with%20Dice</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20686A%20%E2%80%93%20Free%20Ice%20Cream</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20913A%20%E2%80%93%20Modular%20Exponentiation</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20630A%20%E2%80%93%20Again%20Twenty%20Five!</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%201003A%20%E2%80%93%20Polycarp%E2%80%99s%20Pockets</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%2011%20-hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20451B%20%E2%80%93%20Sort%20the%20Array</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20977A%20%E2%80%93%20Wrong%20Subtraction</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%201006B%20%E2%80%93%20Polycarp%E2%80%99s%20Practice</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%201006A%20%E2%80%93%20Adjacent%20Replacements</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%201005B%20%E2%80%93%20Delete%20from%20the%20Left</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20499B%20%E2%80%93%20Lecture</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%201005A%20%E2%80%93%20Tanya%20and%20Stairways</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20478B%20%E2%80%93%20Random%20Teams</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20513A%20%E2%80%93%20Game</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20839A%20%E2%80%93%20Arya%20and%20Bran</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%201004A%20%E2%80%93%20Sonya%20and%20Hotels</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%2043A%20%E2%80%93%20Football</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20515C%20%E2%80%93%20Drazil%20and%20Factorial</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20702A%20%E2%80%93%20Maximum%20Increase</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20761A%20%E2%80%93%20Dasha%20and%20Stairs</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20766B%20%E2%80%93%20Mahmoud%20and%20a%20Triangle</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20675A%20%E2%80%93%20Infinite%20Sequence</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Codeforces%20sloution%20798A%20%E2%80%93%20Mike%20and%20palindrome</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Weather%20Observation%20Station%2017</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Weather%20Observation%20Station%2015</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Weather%20Observation%20Station%2014</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Weather%20Observation%20Station%2013</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Weather%20Observation%20Station%202</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Top%20Earners</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-The%20Blunder</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution-Population%20Density%20Difference</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution%20Japan%20Population</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20Solution%20Average%20Sum</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Revising%20Aggregations%20%E2%80%93%20Averages%20%E2%80%93%20hacker%20rank%20solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Revising%20Aggregations%20%E2%80%93%20The%20Sum%20Function%20%E2%80%93%20Hcaker%20Rank%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Employee%20Salaries%20-Hacker%20rank%20solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Employee%20Names-%20Hacker%20Rank%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Higher%20Than%2075%20Marks%20%E2%80%93%20Hacker%20rank%20soluation</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%2012%20-Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%2010%20-hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%209%20-hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%208%20-Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%207%20-Hacker%20Rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%206%20-hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%205%20-hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%204%20-Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%203%20-Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Weather%20Observation%20Station%201%20-Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Japanese%20Cities%E2%80%99%20Names%20-Hacker%20Rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Japanese%20Cities%E2%80%99%20Attributes%20-Hacker%20Rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Select%20By%20ID%20%E2%80%93%20Hacker%20Rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Select%20All%20%E2%80%93%20Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Revising%20the%20Select%20Query%20II%20-Hacker%20Rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=Revising%20the%20Select%20Query%20I%20-Hacker%20rank</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20even-tree%20Even%20Tree%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=HackerRank%20torque-and-development%20Roads%20and%20Libraries%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mysolutions4you.herokuapp.com/ojsolution?id=LightOJ%201026%20Critical%20Links%20Solution</loc>
+  <lastmod>2020-09-06T04:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
