@@ -9,6 +9,7 @@ urlpatterns = [
     path('hackerrank',views.hackerrank,name='hackerrank'),
     path('loj',views.loj,name='loj'),
     path('ojsolution',views.ojsolution,name='ojsolution'),
+    path('submitContact',views.submitContact,name='submitContact')
     # path('qa',views.qa,name='qa'),
     # path('mathematics',views.mathematics,name='mathematics'),
     # path('c',views.c,name='c'),

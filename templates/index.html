@@ -47,15 +47,18 @@
 <div class="contactdiv">
     <b>Fill up this form to contact with us.</b><br><br>
     <div class="contact_form">
+        <form action="submitContact" method="post">
+            {% csrf_token %}
         <label><b>Name</b> (required)</label>
-        <input id="name" class="signup_form" type="text" placeholder="Your Name" required>
+        <input name="name" id="name" class="signup_form" type="text" placeholder="Your Name" required>
         <label><b>Email </b>(required)</label>
-        <input id="email" class="signup_form" type="text" placeholder="example@mail_host.com" required>
+        <input name="email" id="email" class="signup_form" type="text" placeholder="example@mail_host.com" required>
         <label><b>Phone No.</b></label>
-        <input id="phone" class="signup_form" type="number" placeholder="01234567891">
+        <input name="phone" id="phone" class="signup_form" type="number" placeholder="01234567891">
         <label><b>Message (required)</b></label>
-        <textarea id="message" class="contact_message" type="text" placeholder="Your Comment" required></textarea>
+        <textarea name="message" id="message" class="contact_message" type="text" placeholder="Your Comment" required></textarea>
         <button type="submit" onclick="submitContact()">Submit</button>
+        </form>
     </div>
 </div>
 <h2 class="heading1"> All Posts</h2>

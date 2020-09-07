@@ -19,3 +19,8 @@ class Solution(models.Model):
     img = models.ImageField(upload_to='images',blank=True, null=True)
     has_img = models.BooleanField(default=False)
 
+class Contacts(models.Model):
+    name=models.CharField(max_length=20)
+    email=models.CharField(max_length=50)
+    phone=models.CharField(max_length=11)
+    message=models.CharField(max_length=200)

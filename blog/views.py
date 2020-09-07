@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
-from .models import Solution
+from .models import Solution,Contacts
 
 # Create your views here.
 def index(request):
@@ -25,6 +25,18 @@ def ojsolution(request):
     id=request.GET['id']
     solution = Solution.objects.all().filter(title=id)
     return render(request,'ojsolution.html',{'sol':solution,'title':solution[0].title,'meta':solution[0].title+solution[0].explaination+solution[0].code})
+def submitContact(request):
+    name=request.POST['name']
+    email=request.POST['email']
+    phone=request.POST['phone']
+    message=request.POST['message']
+
+    contacts=Contacts(name=name,email=email,phone=phone,message=message)
+    contacts.save()
+
+    return redirect('/')
+
+
 
 
 # def qa(request):
