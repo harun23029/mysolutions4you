@@ -64,7 +64,7 @@
             <nav class="navbar navbar-inverse" style="background-color: rgb(28, 4, 44); margin-bottom: 0px;">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="http://mysolutions4you.herokuapp.com/"><img
+                        <a class="navbar-brand" href="http://mysolutions4you.herokuapp.com/"><img ondblclick="goAdmin()"
                                 src="{% static 'images/mylogo.png' %}" alt="My Solutions4You" width="200px"></a>
                     </div>
                     <ul class="nav navbar-nav">
@@ -184,7 +184,11 @@
 
     </div>
     </div>
-
+    <script>
+       function goAdmin(){
+           window.location="https://mysolutions4you.herokuapp.com/admin"
+       }
+    </script>
     <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
 
 </body>
