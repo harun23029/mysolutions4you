@@ -20,6 +20,18 @@
     </div>
 </div>
 <div class="postsdiv">
+    <h4 style="color: blue;">Related Posts</h4>
+    {% for s in sol_rel %}
+    <div class="col4">
+        <a href="{% url 'ojsolution' %}?id={{s.title}}"><p><b>{{s.title}}</b></p>
+        <p>{{s.link}}{{s.explaination}}{{s.code}}</p></a>
+        
+    </div>
+
+    {% endfor %}
+
+     
+
 
 </div>
 
