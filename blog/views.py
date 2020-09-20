@@ -28,7 +28,7 @@ def ojsolution(request):
     solution = Solution.objects.all().filter(title=id)
     cat = solution[0].category
     solution_related = Solution.objects.order_by('?').all().filter(category=cat)[:3]
-    link_text=solution[0].title.replace('solution','').replace('Solution','').replace('solutions','').replace('Solutions','')
+    link_text=solution[0].title.replace('solution','').replace('Solution','').replace('solutions','').replace('Solutions','').replace('sloutions','')
 
     return render(request,'ojsolution.html',{'sol_rel':solution_related,'sol':solution,'link_text':link_text,'title':solution[0].title,'meta':solution[0].title+solution[0].explaination+solution[0].code})
 def submitContact(request):
