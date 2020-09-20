@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import Solution,Contacts
 import random
+from random import shuffle
 
 # Create your views here.
 def index(request):
@@ -26,7 +27,7 @@ def ojsolution(request):
     id=request.GET['id']
     solution = Solution.objects.all().filter(title=id)
     cat = solution[0].category
-    solution_related = Solution.objects.all().filter(category=cat)[:3]
+    solution_related = Solution.objects.order_by('?').all().filter(category=cat)[:3]
     
 
     return render(request,'ojsolution.html',{'sol_rel':solution_related,'sol':solution,'title':solution[0].title,'meta':solution[0].title+solution[0].explaination+solution[0].code})
