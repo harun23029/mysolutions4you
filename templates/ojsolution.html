@@ -24,17 +24,13 @@
     {% for s in sol_rel %}
     <div class="col4">
         <a href="{% url 'ojsolution' %}?id={{s.title}}"><p><b>{{s.title}}</b></p>
-        <p>{{s.link}}{{s.explaination}}{{s.code}}</p></a>
+        <p>Problem link--{{s.link}}{{s.explaination}}{{s.code}}</p></a>
         
     </div>
 
     {% endfor %}
 
-     
-
-
 </div>
-<br><br>
 
 <div class="fb-comments" data-href="https://mysolutions4you.herokuapp.com/{{s.title}}" data-width="100%"
     data-numposts="10"></div>
