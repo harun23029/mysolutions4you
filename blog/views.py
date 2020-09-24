@@ -7,30 +7,30 @@ from random import shuffle
 # Create your views here.
 def index(request):
     solution = Solution.objects.all()
-    return render(request,'index.html',{'solution':solution,'title':'My Solutions For You Computer Science','meta':'This we is about solutions of programing problems of online judges and other CSE related subjects'})
+    return render(request,'index.html',{'can':'','solution':solution,'title':'My Solutions For You Computer Science','meta':'This we is about solutions of programing problems of online judges and other CSE related subjects'})
 def codeforces(request):
     solution = Solution.objects.all().filter(category='CODEFORCES')
-    return render(request,'ojproblem.html',{'name':'Codeforces','solution':solution,'title':'Codeforces Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge Codeforces. Codeforces solutions'})
+    return render(request,'ojproblem.html',{'can':'codeforces','name':'Codeforces','solution':solution,'title':'Codeforces Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge Codeforces. Codeforces solutions'})
 def uri(request):
     solution = Solution.objects.all().filter(category='URI')
-    return render(request,'ojproblem.html',{'name':'URI','solution':solution,'title':'URI Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge URI. URI solutions'})
+    return render(request,'ojproblem.html',{'can':'uri','name':'URI','solution':solution,'title':'URI Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge URI. URI solutions'})
 def uva(request):
     solution = Solution.objects.all().filter(category='UVA')
-    return render(request,'ojproblem.html',{'name':'UVA','solution':solution,'title':'UVA Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge UVA. UVA solutions'})
+    return render(request,'ojproblem.html',{'can':'uva','name':'UVA','solution':solution,'title':'UVA Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge UVA. UVA solutions'})
 def hackerrank(request):
     solution = Solution.objects.all().filter(category='HACKERRANK')
-    return render(request,'ojproblem.html',{'name':'Hacker Rank','solution':solution,'title':'Hackerrak Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge HackerRank. HackerRank solutions'})
+    return render(request,'ojproblem.html',{'can':'hackerrank','name':'Hacker Rank','solution':solution,'title':'Hackerrak Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge HackerRank. HackerRank solutions'})
 def loj(request):
     solution = Solution.objects.all().filter(category='LIGHT Oj')
-    return render(request,'ojproblem.html',{'name':'Light Oj','solution':solution,'title':'LightOj Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge Light Oj. Light Oj solutions'})
+    return render(request,'ojproblem.html',{'can':'loj','name':'Light Oj','solution':solution,'title':'LightOj Online Judges problems Solutions','meta':'This we is about solutions of programing problems of online judge Light Oj. Light Oj solutions'})
 def ojsolution(request):
     id=request.GET['id']
     solution = Solution.objects.all().filter(title=id)
     cat = solution[0].category
     solution_related = Solution.objects.order_by('?').all().filter(category=cat)[:3]
     link_text=solution[0].title.replace('solution','').replace('Solution','').replace('solutions','').replace('Solutions','').replace('sloution','')
-
-    return render(request,'ojsolution.html',{'sol_rel':solution_related,'sol':solution,'link_text':link_text,'title':solution[0].title,'meta':solution[0].title+solution[0].explaination+solution[0].code})
+    cat_text='ojsolution?id='+solution[0].title.replace(' ','%20')
+    return render(request,'ojsolution.html',{'can':cat_text,'sol_rel':solution_related,'sol':solution,'link_text':link_text,'title':solution[0].title,'meta':solution[0].title+solution[0].explaination+solution[0].code})
 def submitContact(request):
     name=request.POST['name']
     email=request.POST['email']
