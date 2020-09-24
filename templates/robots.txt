@@ -1,8 +1,4 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
+User-Agent: *
+Disallow: 
 
-
-User-agent: *
-Allow: /
-
-Sitemap: https://mysolutions4you.herokuapp.com/sitemap.xml
+Sitemap: http://mysolutions4you.herokuapp.com/sitemap.xml
