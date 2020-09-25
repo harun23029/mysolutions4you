@@ -1,4 +1,5 @@
-User-agent: *
-Allow: /
+User-Agent: *
+Disallow:
+
 
 Sitemap: http://mysolutions4you.herokuapp.com/sitemap.xml
