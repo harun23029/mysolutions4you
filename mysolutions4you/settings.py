@@ -28,7 +28,7 @@ SECRET_KEY = 'a^^lyvdto8*!dv97=bo@71e+d8p0y1!t$k19%rt=q_pa4(gopi'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+REMOVE_WWW = True
 
 # Application definition
 
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'mysolutions4you.middleware.RemoveWWWMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
