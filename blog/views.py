@@ -83,3 +83,6 @@ def submitContact(request):
 #     return render(request,'ojproblem.html',{'name':'Operating System'})
 # def compiler(request):
 #     return render(request,'ojproblem.html',{'name':'Compiler'})
+
+def wp(request):
+    return render(request,'world_population.html')

@@ -30,4 +30,6 @@ urlpatterns = [
     # path('operatingsystem',views.operatingsystem,name='operatingsystem'),
     #  path('compiler',views.compiler,name='compiler'),
 
+     path('wp',views.wp,name='wp'),
+
 ]
