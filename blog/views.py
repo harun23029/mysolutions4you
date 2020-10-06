@@ -86,3 +86,5 @@ def submitContact(request):
 
 def wp(request):
     return render(request,'world_population.html')
+def liu(request):
+    return render(request,'live_internet_user.html')

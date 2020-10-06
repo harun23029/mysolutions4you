@@ -31,5 +31,6 @@ urlpatterns = [
     #  path('compiler',views.compiler,name='compiler'),
 
      path('wp',views.wp,name='wp'),
+     path('liu',views.liu,name='liu'),
 
 ]
