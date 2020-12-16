@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://prelibcsmcqtest.firebaseapp.com/sitemap.xml
+Sitemap: https://mysolutions4you.herokuapp.com//sitemap.xml
