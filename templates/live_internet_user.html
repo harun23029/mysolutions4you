@@ -1,49 +1,49 @@
-<!DOCTYPE html>
+
+
+{% load static %}
+
 <html>
     <head>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <style>
-            div.fixed {
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                width: 100%;
-                border: 3px solid #73AD21;
-              }
-        </style>
-
+        <head>
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            <style>
+                div.fixed {
+                    position: fixed;
+                    bottom: 15%;
+                    right: 20%;
+                    display: none;
+                  }
+            </style>
+    
+        </head>
     </head>
-<body bgcolor="black">
+<body style="background-image: url('/static/images/p_back.jpg');">
 <div align="center">
-<p style="color: white;font-size:50px">Total Internet User Count Live</p>
-<iframe  src="https://www.internetlivestats.com/internet-users#pageband" width="25%" height="130" style="border:1px solid black;zoom: 0.5;" scrolling="no">
+    <h1 style="color: white;">World's Current Popilation Live</h1>
+<iframe sandbox="allow-scripts" src="https://www.worldometers.info/world-population#maincounter-wrap" width="800" height="500" style="border:1px solid black;" scrolling="no">
 </iframe>
-
+<iframe sandbox="allow-scripts" src="https://www.worldometers.info/world-population#top20" width="400" height="500" style="border:1px solid black;" scrolling="no" >
+</iframe>
+</div>
+<div class="fixed" align="center" id="subscribe">
+    <img src="{% static 'images/sub.gif'%}" height="150px" width="600px">
 </div>
 <br><br>
-<div id="count">
-    <i class="fas fa-male" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;margin:2px"></i>
-</div>
-<div style="background-color: chartreuse;" class="fixed">
-    <marquee><img src="https://linkpicture.com/q/cooltext364669681937680.png" height="50px" width="50px" style="margin-top: 10px;"><h1 style="display: inline-block;">Please Subscribe My Channel ***</h1><img src="https://linkpicture.com/q/cooltext364669681937680.png" height="50px" width="50px" style="margin-top: 10px;"><h1 style="display: inline-block;">Please Subscribe My Channel ****</h1></marquee>
 
+<div style="background-color: chartreuse;">
+    <marquee><img src="{% static 'images/FT Streamer.png'%}" height="40px" width="40px" style="margin-top: 10px;"><h1 style="display: inline-block;">Please Subscribe My Channel ***</h1><img src="{% static 'images/FT Streamer.png'%}"" height="40px" width="40px" style="margin-top: 10px;"><h1 style="display: inline-block;">Please Subscribe My Channel ****</h1></marquee>
 </div>
     
 <script>
-    var cnt=1;
-    function count(){
-        cnt++;
-        document.getElementById('count').innerHTML+="<i class=\"fas fa-male\" style=\"font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;margin:2px;\"></i>"
-        if(cnt==280){
-            cnt=0;
-            document.getElementById('count').innerHTML="<i class=\"fas fa-male\" style=\"font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;margin:2px;\"></i>"
-        }
-    }
-    $(document).ready(function(){
-        myVar = setInterval("count()", 100);
-    });
+    window.setTimeout(function () {
+        document.getElementById('subscribe').style.display='block';
+    }, 300000);
+    window.setTimeout(function () {
+        document.getElementById('subscribe').style.display='none';
+    }, 306000);
 </script>
+
 </body>
 </html>
 

@@ -2,21 +2,256 @@
 
 <!DOCTYPE html>
 <html>
-<body style="background-image: url('{% static 'images/p_back.jpg' %}');">
-<div align="center">
-    <h1 style="color: white;">World's Current Popilation Live</h1>
-<iframe sandbox="allow-scripts" src="https://www.worldometers.info/world-population#maincounter-wrap" width="800" height="500" style="border:1px solid black;" scrolling="no">
-</iframe>
-<iframe sandbox="allow-scripts" src="https://www.worldometers.info/world-population#top20" width="400" height="500" style="border:1px solid black;" scrolling="no" >
-</iframe>
-</div>
-<div style="background-color: chartreuse;">
-    <marquee><img src="https://linkpicture.com/q/cooltext364669681937680.png" height="50px" width="50px" style="margin-top: 10px;"><h1 style="display: inline-block;">Please Subscribe My Channel ***</h1><img src="https://linkpicture.com/q/cooltext364669681937680.png" height="50px" width="50px" style="margin-top: 10px;"><h1 style="display: inline-block;">Please Subscribe My Channel ****</h1></marquee>
 
-</div>
-    
-</audio>
+<head>
+    <style>
+        div.fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            border: 3px solid #73AD21;
+        }
+
+        .div1 {
+            width: 13%;
+            height: 200px;
+            float: left;
+            background-color: darkgray;
+        }
+
+        .div2 {
+            width: 29%;
+            height: 200px;
+            float: left;
+            background-color: darkgray;
+        }
+
+        .div21 {
+            width: 35%;
+            height: 200px;
+            float: left;
+            background-color: darkgray;
+        }
+
+        .div3 {
+            width: 10%;
+            height: 200px;
+            float: left;
+            background-color: darkgray;
+        }
+
+        .div4 {
+            width: 15%;
+            float: left;
+        }
+
+        .div5 {
+            width: 50%;
+            height: 170px;
+            float: left;
+        }
+
+        .div51 {
+            height: 190px;
+            float: left;
+            background-color: darkgray;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .div6 {
+            width: 30%;
+            float: left;
+        }
+
+        .div7 {
+            width: 95%;
+            height: 125px;
+            background-color: darkgray;
+            border-radius: 15px;
+            float: left;
+            color: blue;
+        }
+
+        .h1 {
+
+            line-height: 0.4em;
+        }
+
+        h1 {
+            line-height: 0.75em;
+        }
+
+        .p1 {
+            line-height: 0.4em;
+        }
+
+        .p2 {
+            line-height: 0.75em;
+        }
+
+        th,
+        td {
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .blinking {
+            animation: blinkingText 1.2s infinite;
+        }
+
+        @keyframes blinkingText {
+            0% {
+                color: #000;
+            }
+
+            49% {
+                color: #000;
+            }
+
+            60% {
+                color: transparent;
+            }
+
+            99% {
+                color: transparent;
+            }
+
+            100% {
+                color: #000;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url('{% static 'images/s.jpg' %}');margin:0;padding:0;overflow-x:hidden">
+    <div style="width: 100%;height:90px;background-color:darkblue;padding:1px" align="center">
+        <h1 class="h1" style="color: white;">{{match_detail}}
+        </h1>
+        <h3 style="color: white;">{{toss}}</h3>
+    </div>
+    <div>
+        <div style="padding:1px">
+            <div class="div1">
+                <img src="{% static 'images/kkr.png' %}" height="150px" width="150px">
+            </div>
+            <div class="div2">
+                <h1 style="padding-left:10px">{{team1}}</h1>
+                <p class="p1" style="font-size: 40px;"><b>{{score1}}</b></p>
+                <p style="font-size: 20px;"></b></p>
+            </div>
+            <div class="div3" align="center">
+                <p style="font-size: 60px;"><b>VS</b></p>
+            </div>
+            <div class="div21">
+                <h1 style="padding-left:10px">{{team2}}</h1>
+                <p style="font-size: 40px;"><b>{{score2}}</b></p>
+                <p class="p1" style="font-size: 20px;"><b>{{crr2}}</b><br> </p>
+                <p class="p2" style="font-size: 20px;"><b>{{rrr}}</b></p>
+            </div>
+            <div class="div1" style="margin-right: 0px;">
+                <img src="{% static 'images/kxip.png' %}" height="150px" width="150px">
+            </div>
+            <hr>
+            <div>
+
+                <div class="div5" align="center" style="color: blue;">
+                    <div align="center" class="div51">
+                        <h1>Batting</h1>
+                        <table>
+                            <tr>
+                                <th>Batsman</th>
+                                <th>R</th>
+                                <th>B</th>
+                                <th>4s</th>
+                                <th>6s</th>
+                                <th>SR</th>
+                            </tr>
+                            <tr>
+                                <td>{{b1}}</td>
+                                <td>{{run1}}</td>
+                                <td>{{bf1}}</td>
+                                <td>{{h41}}</td>
+                                <td>{{h61}}</td>
+                                <td>{{sr1}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{b2}}</td>
+                                <td>{{run2}}</td>
+                                <td>{{bf2}}</td>
+                                <td>{{h42}}</td>
+                                <td>{{h62}}</td>
+                                <td>{{sr2}}</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="div5" align="center" style="color: blue;">
+                    <div align="center" class="div51">
+                        <h1>Bowling</h1>
+                        <table>
+                            <tr>
+                                <th>Bowler</th>
+                                <th>O</th>
+                                <th>M</th>
+                                <th>R</th>
+                                <th>W</th>
+                                <th>Eco.</th>
+                            </tr>
+                            <tr>
+                                <td>{{bo1}}</td>
+                                <td>{{ov1}}</td>
+                                <td>{{m1}}</td>
+                                <td>{{r1}}</td>
+                                <td>{{w1}}</td>
+                                <td>{{eco1}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{bo2}}</td>
+                                <td>{{ov2}}</td>
+                                <td>{{m2}}</td>
+                                <td>{{r2}}</td>
+                                <td>{{w2}}</td>
+                                <td>{{eco2}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 220px;padding-left:20px">
+        <div class="div7">
+            <h1 align="center">Recent </h1>
+            {% for ball in ballbyball %}
+                <h1 style="display: inline;margin:15px;padding-left:4px">{{ball}} </h1>
+            {% endfor %}
+        </div>
+    </div>
+   
+    <div class="fixed" style="background-color: chartreuse;width:100%;height:60px" align="center">
+        <span class="blinking">
+            <img src="{% static 'images/FT Streamer.png'%}" height="50px" width="50px">
+            <h1 style="display: inline-block;">Please Subscribe My Channel ***</h1>
+        </span>
+        <span class="blinking">
+            <img src="{% static 'images/FT Streamer.png'%}" height="50px" width="50px">
+            <h1 style="display: inline-block;">Please Subscribe My Channel ***</h1>
+            <img src="{% static 'images/FT Streamer.png'%}" height="50px" width="50px">
+            <h1 style="display: inline-block;">Please Subscribe My Channel ***</h1>
+        </span>
+    </div>
+
+    <script>
+        window.setTimeout(function () {
+            location.href = "http://127.0.0.1:8000/wp";
+        }, 8000);
+    </script>
 
 </body>
-</html>
 
+</html>
