@@ -27,7 +27,7 @@ SECRET_KEY = 'a^^lyvdto8*!dv97=bo@71e+d8p0y1!t$k19%rt=q_pa4(gopi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['myslns4u.com']
 REMOVE_WWW = True
 
 # Application definition
@@ -84,10 +84,11 @@ WSGI_APPLICATION = 'mysolutions4you.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'mysolutions4you',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST' : 'localhost'
+        'NAME':'myslnsuc_db1',
+        'USER': 'myslnsuc_user1',
+        'PASSWORD': 'Harun420@Faisal',
+        'HOST' : '127.0.0.1',
+        'PORT' : '5432',
     }
 }
 
